@@ -1,0 +1,14 @@
+13
+insert a
+insert e
+insert d
+insert z
+insert r
+insert s
+inorder
+delete d
+inorder
+delete s
+inorder
+delete r
+inorder

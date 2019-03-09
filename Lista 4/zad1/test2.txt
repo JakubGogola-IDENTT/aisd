@@ -1,0 +1,3 @@
+2
+load sample.txt
+inorder

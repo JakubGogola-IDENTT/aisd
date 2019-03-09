@@ -1,0 +1,1339 @@
+desc: (none)
+cmd: ./main --type merge --comp <= --stat merge_results 500
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=47134266002
+mem_heap_B=94479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=112469832854
+mem_heap_B=110479
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 110479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 9600 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 9600 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n1: 9600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 9600 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 9600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 9600 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 9600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 9600 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 9600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=164524717495
+mem_heap_B=104079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=214069597744
+mem_heap_B=107279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=282835099719
+mem_heap_B=110479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=340724294054
+mem_heap_B=129679
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 129679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 16000 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 16000 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n1: 16000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 16000 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 16000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 16000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 16000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 16000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 16000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=378450692909
+mem_heap_B=132079
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 132079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 16800 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 16800 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 16800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 16800 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n0: 16800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 16800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 16800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 16800 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 16800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=427899365902
+mem_heap_B=116879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=485503579889
+mem_heap_B=119279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=519816731352
+mem_heap_B=120079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=569560918973
+mem_heap_B=121679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=642248237510
+mem_heap_B=124079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=702315440758
+mem_heap_B=148879
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 148879 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 22400 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 22400 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 22400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 22400 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n0: 22400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 22400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 22400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 22400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 22400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=765413741647
+mem_heap_B=128079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=806506168258
+mem_heap_B=128879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=847123077932
+mem_heap_B=130479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=894013770214
+mem_heap_B=131279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=965485904363
+mem_heap_B=132879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1015161635544
+mem_heap_B=134463
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1064254177443
+mem_heap_B=163279
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 163279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 27200 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 27200 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 27200 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 27200 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n0: 27200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 27200 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 27200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 27200 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 27200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=1132255329613
+mem_heap_B=165679
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 165679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 28000 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 28000 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 28000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 28000 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n0: 28000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 28000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 28000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 28000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 28000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=1202451345423
+mem_heap_B=168079
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 168079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 28800 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 28800 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 28800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 28800 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n0: 28800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 28800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 28800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 28800 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 28800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=1245629732795
+mem_heap_B=140079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 140079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 29200 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 29200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 29200 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 29200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=1294042471913
+mem_heap_B=140879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1329666459989
+mem_heap_B=141679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 141679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 30000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 30000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 30000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 30000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=1372210533386
+mem_heap_B=142479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1430239834495
+mem_heap_B=144079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1461642369456
+mem_heap_B=144079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1505371329137
+mem_heap_B=177679
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 177679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 32000 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 32000 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n1: 32000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 32000 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n0: 32000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 32000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 32000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=1552448810110
+mem_heap_B=146479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1616921974802
+mem_heap_B=147279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 147279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 32800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 32800 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=1660171496212
+mem_heap_B=148079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 148079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 33200 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 33200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 33200 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 33200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=1696743058531
+mem_heap_B=148879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1755961354860
+mem_heap_B=184879
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 184879 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 34400 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 34400 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n2: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 34400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n1: 34400 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                 n0: 34400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 0 in 2 places, all below massif's threshold (1.00%)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 34400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 34400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 34400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 34400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=1800764024950
+mem_heap_B=151279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1843971506764
+mem_heap_B=151279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1888999716231
+mem_heap_B=152879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1934426995542
+mem_heap_B=189679
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 189679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 36000 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 36000 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n2: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 36000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n1: 36000 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                 n0: 36000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 0 in 2 places, all below massif's threshold (1.00%)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 36000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 36000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 36000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 36000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=1968169978632
+mem_heap_B=153679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2027097108769
+mem_heap_B=192079
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 192079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 36800 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 36800 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n2: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 36800 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n1: 36800 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                 n0: 36800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 0 in 2 places, all below massif's threshold (1.00%)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 36800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 36800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 36800 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 36800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=2074915461881
+mem_heap_B=156079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2122064274202
+mem_heap_B=194479
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 194479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 37600 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 37600 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n2: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 37600 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n1: 37600 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                 n0: 37600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 0 in 2 places, all below massif's threshold (1.00%)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 37600 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 37600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 37600 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 37600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=2176904319723
+mem_heap_B=157679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2219330304933
+mem_heap_B=196879
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=detailed
+n6: 196879 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 38400 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 38400 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n2: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 38400 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n1: 38400 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                 n0: 38400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 0 in 2 places, all below massif's threshold (1.00%)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 38400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 38400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 38400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 38400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=2284019525369
+mem_heap_B=159279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2313956161810
+mem_heap_B=159279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2363790357788
+mem_heap_B=160079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2420748764536
+mem_heap_B=201679
+mem_heap_extra_B=97
+mem_stacks_B=0
+heap_tree=peak
+n6: 201679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 40000 0x10C91A: merge(data*, stats*, int, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n2: 40000 0x10C8A3: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+   n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+    n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+      n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+       n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+        n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+         n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+          n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+           n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+            n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+             n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+              n2: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n1: 40000 0x10C86A: merge_sort(data*, stats*, int, int) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                n1: 40000 0x10DA2A: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+                 n0: 40000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+               n0: 0 in 2 places, all below massif's threshold (1.00%)
+              n0: 0 in 2 places, all below massif's threshold (1.00%)
+             n0: 0 in 2 places, all below massif's threshold (1.00%)
+            n0: 0 in 2 places, all below massif's threshold (1.00%)
+           n0: 0 in 2 places, all below massif's threshold (1.00%)
+          n0: 0 in 2 places, all below massif's threshold (1.00%)
+         n0: 0 in 2 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+       n0: 0 in 2 places, all below massif's threshold (1.00%)
+      n0: 0 in 2 places, all below massif's threshold (1.00%)
+     n0: 0 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 40000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 40000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 40000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 40000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=2429729509384
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2433897491159
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2438064421376
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2442231254852
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2446398088227
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2450564923157
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2454731766306
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2458898600018
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 161679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000115: ???
+       n1: 72704 0x1FFF00011C: ???
+        n1: 72704 0x1FFF000123: ???
+         n1: 72704 0x1FFF000129: ???
+          n1: 72704 0x1FFF000130: ???
+           n1: 72704 0x1FFF000133: ???
+            n1: 72704 0x1FFF00013A: ???
+             n0: 72704 0x1FFF000148: ???
+ n1: 40000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 40000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 40000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 40000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=57
+#-----------
+time=2463065433948
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2467232307090
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2471404164402
+mem_heap_B=161679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=empty

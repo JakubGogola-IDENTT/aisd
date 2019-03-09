@@ -1,0 +1,971 @@
+desc: (none)
+cmd: ./main --type dual --comp <= --stat dual_results 500
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=66616902490
+mem_heap_B=93679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 93679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 6000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 6000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 6000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 6000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=115824574145
+mem_heap_B=89279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=170586419763
+mem_heap_B=90879
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=204409161100
+mem_heap_B=91679
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=247643056411
+mem_heap_B=92479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=299999693122
+mem_heap_B=93679
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=334189975506
+mem_heap_B=94079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=396263391009
+mem_heap_B=95279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=435276470698
+mem_heap_B=95679
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=478259904920
+mem_heap_B=96479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=543270921730
+mem_heap_B=97279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=597411235032
+mem_heap_B=98079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=637876356818
+mem_heap_B=116079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 116079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 17200 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 17200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 17200 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 17200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=689370390755
+mem_heap_B=99279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=detailed
+n4: 99279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 17600 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 17600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=729243687478
+mem_heap_B=99679
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=789943213453
+mem_heap_B=100479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=860770008590
+mem_heap_B=101279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=916033153758
+mem_heap_B=122479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 122479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 20400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 20400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 20400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 20400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=961026100143
+mem_heap_B=102479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=993367645481
+mem_heap_B=124079
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 124079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 21200 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 21200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 21200 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 21200 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=1038044714212
+mem_heap_B=103279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1074123105549
+mem_heap_B=125679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 125679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 22000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 22000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 22000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 22000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=1122076479146
+mem_heap_B=104079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1152056898614
+mem_heap_B=104079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1210879142923
+mem_heap_B=104879
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1245650272907
+mem_heap_B=128879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 128879 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 23600 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 23600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 23600 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 23600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=1285905448183
+mem_heap_B=105279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1336585618709
+mem_heap_B=130479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 130479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 24400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 24400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 24400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 24400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=1369675406470
+mem_heap_B=106079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=detailed
+n4: 106079 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 24400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 24400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=1419120046860
+mem_heap_B=106479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1486129062319
+mem_heap_B=107279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1528025814840
+mem_heap_B=133679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 133679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 26000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 26000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 26000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 26000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=1590738585936
+mem_heap_B=108079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1628707422389
+mem_heap_B=135279
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 135279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 26800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 26800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 26800 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 26800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=1689144640530
+mem_heap_B=108879
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1733061027015
+mem_heap_B=136879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 136879 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 27600 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 27600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 27600 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 27600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=1782469584530
+mem_heap_B=109279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1840597906756
+mem_heap_B=138479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 138479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 28400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 28400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 28400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 28400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=1890352714535
+mem_heap_B=110079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1940021389239
+mem_heap_B=110479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2011825230406
+mem_heap_B=111279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2065737160296
+mem_heap_B=141679
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 141679 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 30000 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 30000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 30000 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 30000 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=2126214481131
+mem_heap_B=112079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2194961270015
+mem_heap_B=112479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2236555389636
+mem_heap_B=112479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2304551054415
+mem_heap_B=144879
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=detailed
+n5: 144879 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 31600 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 31600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 31600 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 31600 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=2359065722269
+mem_heap_B=113279
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2428880057948
+mem_heap_B=146479
+mem_heap_extra_B=89
+mem_stacks_B=0
+heap_tree=peak
+n5: 146479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 32400 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 32400 0x10D8AD: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32400 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=2466787135243
+mem_heap_B=114079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=2471004455923
+mem_heap_B=114079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2475309805359
+mem_heap_B=114079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2479625118824
+mem_heap_B=114079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2483909657775
+mem_heap_B=114079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2488225518312
+mem_heap_B=114079
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2492564923951
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2496872248971
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2501193404446
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=detailed
+n4: 114479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 32800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=2505432128901
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2509644288347
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=2513948806335
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2518277244479
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2522576595065
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2526846511956
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2531091281045
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=2535302556300
+mem_heap_B=147263
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=2539544463398
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=2543813146372
+mem_heap_B=114479
+mem_heap_extra_B=81
+mem_stacks_B=0
+heap_tree=detailed
+n4: 114479 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBF304: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x4010AD8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4010BE9: _dl_init (dl-init.c:30)
+    n1: 72704 0x4000ED8: ??? (in /lib/x86_64-linux-gnu/ld-2.26.so)
+     n1: 72704 0x6: ???
+      n1: 72704 0x1FFF000141: ???
+       n1: 72704 0x1FFF000148: ???
+        n1: 72704 0x1FFF00014F: ???
+         n1: 72704 0x1FFF000154: ???
+          n1: 72704 0x1FFF00015B: ???
+           n1: 72704 0x1FFF00015E: ???
+            n1: 72704 0x1FFF000165: ???
+             n0: 72704 0x1FFF000172: ???
+ n1: 32800 0x10D87C: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+  n0: 32800 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n1: 8192 0x4F239D6: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 8192 0x4F27BC0: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 8192 0x4F27CE1: std::basic_ofstream<char, std::char_traits<char> >::open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+    n1: 8192 0x10D721: statistics(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+     n0: 8192 0x10AA7C: main (in /home/jakub/Dokumenty/AiSD/Lista 3/zad1/main)
+ n0: 783 in 6 places, all below massif's threshold (1.00%)

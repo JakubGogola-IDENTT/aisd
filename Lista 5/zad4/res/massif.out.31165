@@ -1,0 +1,927 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2132594
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2704365
+mem_heap_B=77856
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3490089
+mem_heap_B=80928
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=4212292
+mem_heap_B=80928
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=4677120
+mem_heap_B=85024
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=5262262
+mem_heap_B=85024
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=5830984
+mem_heap_B=85024
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=6343651
+mem_heap_B=101408
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=detailed
+n4: 101408 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 24576 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 24576 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 24576 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 24576 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 24576 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 24576 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 24576 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 24576 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 24576 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=6942260
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=7679439
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=8249746
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=8712049
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=9259984
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=9894374
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=10291615
+mem_heap_B=93216
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=10853585
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=11487633
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=12161520
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109600 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 32768 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 32768 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 32768 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 32768 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 32768 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 32768 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 32768 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 32768 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=12716899
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=13549276
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109600 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 32768 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 32768 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 32768 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 32768 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 32768 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 32768 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 32768 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 32768 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=13968002
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=14659731
+mem_heap_B=109657
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=15218229
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=15775375
+mem_heap_B=109657
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=16611955
+mem_heap_B=109600
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=17169492
+mem_heap_B=109657
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=17723414
+mem_heap_B=109657
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=detailed
+n4: 109657 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 32768 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 32768 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 32768 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 32768 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 32768 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 32768 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 32768 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 32768 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 89 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=18277311
+mem_heap_B=109657
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=18832305
+mem_heap_B=175136
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=detailed
+n4: 175136 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 98304 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 98304 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 98304 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 98304 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 98304 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 98304 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 98304 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 98304 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 98304 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=19429273
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=19887807
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=20804001
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=21719116
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=22179513
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=22639532
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=23098944
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=23557578
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=24017601
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=24935223
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=25395983
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=25855544
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=26315220
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=27003838
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=27694129
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=28154946
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=28612301
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=29072945
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=29759946
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=30448438
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=30849252
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=31248379
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=31647879
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=32047482
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=32448815
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=32846457
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=33244184
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=33643799
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=34042799
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=detailed
+n4: 142425 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 65536 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 65536 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 65536 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 65536 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 65536 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 65536 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 65536 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 65536 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 65536 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 89 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=34442361
+mem_heap_B=142368
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=34841662
+mem_heap_B=142425
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=35574106
+mem_heap_B=273440
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=detailed
+n4: 273440 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 196608 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 196608 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 196608 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 196608 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 196608 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 196608 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 196608 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 196608 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 196608 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=35972647
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=36373237
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=36772266
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=37174134
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=37572205
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=37972828
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=38371403
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=38770368
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=39167977
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=39568046
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n4: 207904 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 131072 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 131072 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 131072 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 131072 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 131072 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 131072 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 131072 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 131072 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 131072 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=72
+#-----------
+time=39966156
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=40364198
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=40762081
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=41163644
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=41562767
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=41960967
+mem_heap_B=207961
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=42401597
+mem_heap_B=209496
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=43211869
+mem_heap_B=214104
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=45666068
+mem_heap_B=220248
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=55292406
+mem_heap_B=232536
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n4: 232536 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 155648 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 155648 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 155648 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 155648 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 155648 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 155648 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 131072 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 131072 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 131072 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 24576 0x113F79: random_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 24576 0x10CD50: parser::run_tests() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 24576 0x1099FB: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 88 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=82
+#-----------
+time=93415876
+mem_heap_B=257112
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=245141405
+mem_heap_B=306264
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=245406239
+mem_heap_B=306264
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=peak
+n4: 306264 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 229376 0x10DDF6: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 229376 0x10DD30: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 229376 0x10DB66: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 229376 0x10D694: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 229376 0x10D458: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 229376 0x10D296: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 131072 0x10CBAD: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 131072 0x10CC79: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 131072 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 98304 0x113F79: random_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 98304 0x10CD50: parser::run_tests() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 98304 0x1099FB: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CBF8: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1099EF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 88 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=780973772
+mem_heap_B=200792
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty

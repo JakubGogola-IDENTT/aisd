@@ -1,0 +1,981 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=33773521
+mem_heap_B=207944
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=61493632
+mem_heap_B=339016
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=92582351
+mem_heap_B=339073
+mem_heap_extra_B=63
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=130190066
+mem_heap_B=692840
+mem_heap_extra_B=8824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=162557745
+mem_heap_B=703376
+mem_heap_extra_B=9552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=198078811
+mem_heap_B=715376
+mem_heap_extra_B=10096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=245017165
+mem_heap_B=733496
+mem_heap_extra_B=10576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=283578778
+mem_heap_B=750512
+mem_heap_extra_B=10912
+mem_stacks_B=0
+heap_tree=detailed
+n7: 750512 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 60552 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 60552 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 60552 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 60552 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 60552 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 60552 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 60552 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 60552 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32768 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32768 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32768 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32768 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n2: 32768 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=307482550
+mem_heap_B=761192
+mem_heap_extra_B=11080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=347071624
+mem_heap_B=779768
+mem_heap_extra_B=11448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=398848117
+mem_heap_B=805832
+mem_heap_extra_B=11864
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=430996076
+mem_heap_B=822680
+mem_heap_extra_B=12088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=480513812
+mem_heap_B=845000
+mem_heap_extra_B=12416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=517362356
+mem_heap_B=865952
+mem_heap_extra_B=12688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=545052878
+mem_heap_B=882320
+mem_heap_extra_B=12880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=578772087
+mem_heap_B=900032
+mem_heap_extra_B=13096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=606870884
+mem_heap_B=918032
+mem_heap_extra_B=13296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=644035459
+mem_heap_B=941816
+mem_heap_extra_B=13536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=692019303
+mem_heap_B=972248
+mem_heap_extra_B=13864
+mem_stacks_B=0
+heap_tree=detailed
+n7: 972248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 282288 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 282288 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 282288 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 282288 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 282288 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 282288 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 282288 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 282288 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32768 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32768 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32768 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n2: 32768 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=731661554
+mem_heap_B=1001144
+mem_heap_extra_B=14120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=759332331
+mem_heap_B=1023752
+mem_heap_extra_B=14296
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1023752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 333792 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 333792 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 333792 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 333792 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 333792 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 333792 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 333792 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 333792 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32768 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32768 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32768 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n2: 32768 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=791808317
+mem_heap_B=1050296
+mem_heap_extra_B=14536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=834136474
+mem_heap_B=1083968
+mem_heap_extra_B=14816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=864545251
+mem_heap_B=1110752
+mem_heap_extra_B=15056
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1110752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 420792 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 420792 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 420792 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 420792 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 420792 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 420792 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 420792 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 420792 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32768 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32768 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32768 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n2: 32768 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=896674083
+mem_heap_B=1144112
+mem_heap_extra_B=15304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=937745116
+mem_heap_B=1187336
+mem_heap_extra_B=15616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=963437996
+mem_heap_B=1217384
+mem_heap_extra_B=15824
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1217384 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 527424 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 527424 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 527424 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 527424 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 527424 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 527424 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 527424 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 527424 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32768 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32768 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32768 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32768 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n2: 32768 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=999358588
+mem_heap_B=1277352
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1277352 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 571392 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 571392 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 571392 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 571392 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 571392 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 571392 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 571392 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 571392 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 48768 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 48768 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n2: 48768 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32768 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n2: 32768 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 16000 0x10E309: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 16000 0x10DECF: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_Vector_base(unsigned long, std::allocator<std::shared_ptr<element> > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16000 0x10D9DD: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::vector(std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16000 0x10D583: priority_queue::get_queue() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16000 0x1113B8: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=1049139160
+mem_heap_B=1262376
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1087863305
+mem_heap_B=1263400
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1263400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 571392 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 571392 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 571392 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 571392 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 571392 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 571392 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 571392 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 571392 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 34816 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 34816 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n2: 34816 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 34816 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n3: 34816 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n0: 2048 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=1115128644
+mem_heap_B=1263400
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1142168221
+mem_heap_B=1265448
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1195562926
+mem_heap_B=1265448
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1222712452
+mem_heap_B=1265448
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1265448 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 571392 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 571392 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 571392 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 571392 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 571392 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 571392 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 571392 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 571392 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 36864 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 36864 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n2: 36864 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 36864 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n3: 36864 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n0: 4096 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=1249754704
+mem_heap_B=1269544
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=1290188316
+mem_heap_B=1269544
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=1343687205
+mem_heap_B=1269544
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=1383628081
+mem_heap_B=1269544
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1432314547
+mem_heap_B=1301928
+mem_heap_extra_B=16152
+mem_stacks_B=0
+heap_tree=peak
+n7: 1301928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 571392 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 571392 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 571392 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 571392 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 571392 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 571392 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 571392 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 571392 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 73344 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 73344 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n2: 73344 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 57344 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n3: 57344 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24576 0x111426: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n0: 24576 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 16000 0x10E309: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 16000 0x10DECF: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_Vector_base(unsigned long, std::allocator<std::shared_ptr<element> > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16000 0x10D9DD: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::vector(std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n2: 16000 0x10D583: priority_queue::get_queue() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16000 0x111400: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=1472605814
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1499652272
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1526502051
+mem_heap_B=1293736
+mem_heap_extra_B=16144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1566879224
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=detailed
+n7: 1277736 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 571392 0x113635: __gnu_cxx::new_allocator<neighbour>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 571392 0x1133AE: std::allocator_traits<std::allocator<neighbour> >::allocate(std::allocator<neighbour>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 571392 0x11300A: std::_Vector_base<neighbour, std::allocator<neighbour> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 571392 0x112674: void std::vector<neighbour, std::allocator<neighbour> >::_M_realloc_insert<neighbour>(__gnu_cxx::__normal_iterator<neighbour*, std::vector<neighbour, std::allocator<neighbour> > >, neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 571392 0x111F64: neighbour& std::vector<neighbour, std::allocator<neighbour> >::emplace_back<neighbour>(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 571392 0x111A0E: std::vector<neighbour, std::allocator<neighbour> >::push_back(neighbour&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 571392 0x111364: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 571392 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 524288 0x1134D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 524288 0x11324A: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 524288 0x112B72: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 524288 0x1121AA: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 524288 0x111C52: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 524288 0x11185A: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 524288 0x1110CE: dijkstra::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 524288 0x10F5E4: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 524288 0x10A5A7: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 49152 0x10E87A: __gnu_cxx::new_allocator<std::shared_ptr<element> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 49152 0x10E51D: std::allocator_traits<std::allocator<std::shared_ptr<element> > >::allocate(std::allocator<std::shared_ptr<element> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n2: 49152 0x10E1F2: std::_Vector_base<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 49152 0x10DC4A: void std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::_M_realloc_insert<std::shared_ptr<element> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<element>*, std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > > >, std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n3: 49152 0x10D952: std::vector<std::shared_ptr<element>, std::allocator<std::shared_ptr<element> > >::push_back(std::shared_ptr<element> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x10D0C7: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111154: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 16384 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 16384 0x111426: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n0: 16384 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 32000 0x10EF2C: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 32000 0x10ECE9: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 32000 0x10E9BC: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<element, std::allocator<element>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 32000 0x10E681: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, element*, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 32000 0x10E45A: std::__shared_ptr<element, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 32000 0x10E081: std::shared_ptr<element>::shared_ptr<std::allocator<element>, unsigned int&, unsigned int&, double&>(std::_Sp_make_shared_tag, std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 32000 0x10DB73: std::shared_ptr<element> std::allocate_shared<element, std::allocator<element>, unsigned int&, unsigned int&, double&>(std::allocator<element> const&, unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n1: 32000 0x10D88F: std::shared_ptr<element> std::make_shared<element, unsigned int&, unsigned int&, double&>(unsigned int&, unsigned int&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+         n1: 32000 0x10D0A1: priority_queue::insert(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+          n1: 32000 0x11113D: dijkstra::initialize_single_source(priority_queue*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+           n1: 32000 0x111239: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+            n0: 32000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n1: 24000 0x113555: __gnu_cxx::new_allocator<std::vector<neighbour, std::allocator<neighbour> > >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+  n1: 24000 0x1132DF: std::allocator_traits<std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::allocate(std::allocator<std::vector<neighbour, std::allocator<neighbour> > >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+   n1: 24000 0x112D14: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+    n1: 24000 0x112477: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_M_create_storage(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+     n1: 24000 0x111CD5: std::_Vector_base<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::_Vector_base(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+      n1: 24000 0x1118C2: std::vector<std::vector<neighbour, std::allocator<neighbour> >, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > >::vector(unsigned long, std::allocator<std::vector<neighbour, std::allocator<neighbour> > > const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+       n1: 24000 0x111294: dijkstra::shortest_path(unsigned int) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+        n0: 24000 0x10A5D5: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad2/main)
+ n0: 4200 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=1594019633
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=1621003294
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1661323564
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1688297082
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1715139830
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1742249206
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1766452216
+mem_heap_B=1277736
+mem_heap_extra_B=16136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1797968585
+mem_heap_B=683368
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty

@@ -1,0 +1,1128 @@
+desc: (none)
+cmd: ./main
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=62782903
+mem_heap_B=207904
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n4: 207904 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 131072 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 131072 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 131072 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 131072 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 131072 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 131072 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 131072 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 131072 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 131072 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 4096 0x545718A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x5467377: _IO_doallocbuf (genops.c:365)
+   n1: 4096 0x5466252: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:495)
+    n1: 4096 0x54673F0: _IO_default_uflow (genops.c:380)
+     n1: 4096 0x4F230EF: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+      n1: 4096 0x4F31578: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 4096 0x4F33380: std::istream& std::istream::_M_extract<unsigned int>(unsigned int&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+        n1: 4096 0x10CADF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 4096 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=110601742
+mem_heap_B=338976
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=192772752
+mem_heap_B=601120
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=247685085
+mem_heap_B=601120
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n3: 601120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 524288 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 524288 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 524288 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 524288 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 524288 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 524288 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 524288 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 524288 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 524288 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 4128 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=325511796
+mem_heap_B=1125408
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=414931310
+mem_heap_B=1125408
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=450720825
+mem_heap_B=1125408
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=518768730
+mem_heap_B=1125465
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=609058500
+mem_heap_B=2173984
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=691383540
+mem_heap_B=2174041
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=741486022
+mem_heap_B=2174041
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=805903386
+mem_heap_B=2173984
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=877478393
+mem_heap_B=2174041
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=927578704
+mem_heap_B=2174041
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=984842761
+mem_heap_B=2174041
+mem_heap_extra_B=47
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2174041 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2097152 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 2097152 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 2097152 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 2097152 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 2097152 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 2097152 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 4185 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=1054163386
+mem_heap_B=2186328
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1102451634
+mem_heap_B=2223192
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1254794800
+mem_heap_B=2272344
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1861465436
+mem_heap_B=2370648
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=4282787889
+mem_heap_B=2567256
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 2567256 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2490368 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 2490368 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 2490368 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 2490368 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 2490368 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 2490368 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 393216 0x113B5B: random_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 393216 0x10CBF6: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 393216 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 4184 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=13957184542
+mem_heap_B=2960472
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=52632493364
+mem_heap_B=3746904
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=52636721078
+mem_heap_B=3746904
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 3746904 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3670016 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 3670016 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 3670016 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 3670016 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 3670016 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 3670016 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1572864 0x113B5B: random_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1572864 0x10CBF6: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1572864 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 4184 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=207289733469
+mem_heap_B=5319768
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=207298188255
+mem_heap_B=5319768
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 5319768 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5242880 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 5242880 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 5242880 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 5242880 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 5242880 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 5242880 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 3145728 0x113B5B: random_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 3145728 0x10CBF6: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 3145728 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 4184 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=748178468603
+mem_heap_B=4271216
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=748254500488
+mem_heap_B=6124056
+mem_heap_extra_B=12096
+mem_stacks_B=0
+heap_tree=detailed
+n4: 6124056 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x113B5B: random_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CBF6: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 1828864 0x116336: __gnu_cxx::new_allocator<std::shared_ptr<graph_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 1828864 0x115D90: std::allocator_traits<std::allocator<std::shared_ptr<graph_vertex> > >::allocate(std::allocator<std::shared_ptr<graph_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 1828864 0x1156CA: std::_Vector_base<std::shared_ptr<graph_vertex>, std::allocator<std::shared_ptr<graph_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 1828864 0x114B46: void std::vector<std::shared_ptr<graph_vertex>, std::allocator<std::shared_ptr<graph_vertex> > >::_M_realloc_insert<std::shared_ptr<graph_vertex> const&>(__gnu_cxx::__normal_iterator<std::shared_ptr<graph_vertex>*, std::vector<std::shared_ptr<graph_vertex>, std::allocator<std::shared_ptr<graph_vertex> > > >, std::shared_ptr<graph_vertex> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n3: 1828864 0x114302: std::vector<std::shared_ptr<graph_vertex>, std::allocator<std::shared_ptr<graph_vertex> > >::push_back(std::shared_ptr<graph_vertex> const&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 1052672 0x113CB5: random_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1052672 0x10CC08: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n0: 1052672 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 768000 0x113CF5: random_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 768000 0x10CC08: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n0: 768000 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 28184 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=748343722481
+mem_heap_B=8407368
+mem_heap_extra_B=12096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=748642347508
+mem_heap_B=8400408
+mem_heap_extra_B=12096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=748724591648
+mem_heap_B=2224216
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=748876934814
+mem_heap_B=2273368
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=749483605450
+mem_heap_B=2371672
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=751904927903
+mem_heap_B=2568280
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=761579324556
+mem_heap_B=2961496
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=800254633378
+mem_heap_B=3747928
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=800258861092
+mem_heap_B=3223640
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=954911873483
+mem_heap_B=5320792
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=954920328269
+mem_heap_B=4272216
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=detailed
+n3: 4272216 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 72704 0x4EC2498: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 5208 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=1495800608617
+mem_heap_B=4272240
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1495859807720
+mem_heap_B=5814088
+mem_heap_extra_B=439184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1495897867091
+mem_heap_B=6875200
+mem_heap_extra_B=714720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1495958878574
+mem_heap_B=8625952
+mem_heap_extra_B=1151432
+mem_stacks_B=0
+heap_tree=detailed
+n4: 8625952 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2820360 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 2820360 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 2820360 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 2820360 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 2820360 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 2820360 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2820360 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 2820360 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 1410200 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 1410200 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 1410200 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 1410160 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 1410160 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 1410160 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 1501184 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 1501184 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 1501184 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 1501184 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 1501184 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 1501184 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 866304 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 866304 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 866304 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 634880 0x117425: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 634880 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 634880 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=1496028895097
+mem_heap_B=10326048
+mem_heap_extra_B=1723336
+mem_stacks_B=0
+heap_tree=detailed
+n4: 10326048 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4250120 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4250120 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4250120 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4250120 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4250120 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 4250120 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 4250120 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 4250120 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 2125080 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 2125080 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 2125080 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 2125040 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 2125040 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 2125040 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1771520 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 1771520 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 1771520 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 1771520 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 1771520 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 1771520 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 995328 0x117425: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 995328 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 995328 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 776192 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 776192 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 776192 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=1496090886275
+mem_heap_B=12267936
+mem_heap_extra_B=2131016
+mem_stacks_B=0
+heap_tree=detailed
+n4: 12267936 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 5268360 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 5268360 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 5268360 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 5268360 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 5268360 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 5268360 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 5268360 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 5268360 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 2634200 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 2634200 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 2634200 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 2634160 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 2634160 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 2634160 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2695168 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 2695168 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 2695168 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 2695168 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 2695168 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 2695168 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1409024 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1409024 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1409024 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1286144 0x117425: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1286144 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1286144 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=1496165860271
+mem_heap_B=14066928
+mem_heap_extra_B=2749432
+mem_stacks_B=0
+heap_tree=detailed
+n4: 14066928 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 6813400 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 6813400 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 6813400 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 6813400 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 6813400 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 6813400 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 6813400 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 6813400 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 3406720 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 3406720 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 3406720 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 3406680 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 3406680 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 3406680 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2949120 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 2949120 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 2949120 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 2949120 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 2949120 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 2949120 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1794048 0x117425: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1794048 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1794048 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1155072 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1155072 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1155072 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=1496259580290
+mem_heap_B=16846328
+mem_heap_extra_B=3402960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1496327239986
+mem_heap_B=18322808
+mem_heap_extra_B=3993552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1496427231235
+mem_heap_B=18388392
+mem_heap_extra_B=4016600
+mem_stacks_B=0
+heap_tree=peak
+n4: 18388392 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 9980000 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 9980000 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 9980000 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 9980000 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 9980000 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 9980000 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 9980000 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 9980000 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 4990000 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 4990000 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 4990000 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 4990000 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 4990000 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 4990000 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 4103984 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4103984 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n2: 4103984 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4096000 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4096000 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 4096000 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2105344 0x117425: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2105344 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2105344 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1990656 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1990656 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1990656 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n0: 7984 in 1 place, below massif's threshold (1.00%)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=1496448372164
+mem_heap_B=16458152
+mem_heap_extra_B=3460352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1496452600412
+mem_heap_B=16070424
+mem_heap_extra_B=3350080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1496456828449
+mem_heap_B=15690888
+mem_heap_extra_B=3240728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1496461056697
+mem_heap_B=15303160
+mem_heap_extra_B=3131384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1496465284945
+mem_heap_B=14915432
+mem_heap_extra_B=3022024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1496469512982
+mem_heap_B=14535896
+mem_heap_extra_B=2912480
+mem_stacks_B=0
+heap_tree=detailed
+n4: 14535896 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7249600 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 7249600 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 7249600 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 7249600 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 7249600 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 7249600 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 7249600 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 7249600 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 4617360 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 4617360 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 4617360 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 2632240 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 2632240 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 2632240 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 2981888 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 2981888 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n2: 2981888 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 2981888 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 2981888 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 2981888 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1990656 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1990656 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1990656 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 991232 0x117425: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 991232 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 991232 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=1496473741230
+mem_heap_B=14148168
+mem_heap_extra_B=2803056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1496477969478
+mem_heap_B=13760440
+mem_heap_extra_B=2693600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1496482197515
+mem_heap_B=13380904
+mem_heap_extra_B=2584152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1496486425763
+mem_heap_B=12993176
+mem_heap_extra_B=2474712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1496490654011
+mem_heap_B=12605448
+mem_heap_extra_B=2365240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1496494882048
+mem_heap_B=12225912
+mem_heap_extra_B=2255808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1496499110296
+mem_heap_B=11838184
+mem_heap_extra_B=2146368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1496503338544
+mem_heap_B=11450456
+mem_heap_extra_B=2036912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1496507566581
+mem_heap_B=11070920
+mem_heap_extra_B=1927240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1496511794829
+mem_heap_B=10683192
+mem_heap_extra_B=1817880
+mem_stacks_B=0
+heap_tree=detailed
+n4: 10683192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4519200 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4519200 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4519200 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4519200 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4519200 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 4519200 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 4519200 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 4519200 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 3493960 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 3493960 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 3493960 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 1025240 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 1025240 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 1025240 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1859584 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 1859584 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n2: 1859584 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 1859584 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 1859584 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 1859584 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1859584 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 1859584 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 1859584 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=1496516023077
+mem_heap_B=10295464
+mem_heap_extra_B=1708536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1496520251114
+mem_heap_B=9915928
+mem_heap_extra_B=1599184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1496524479362
+mem_heap_B=9528200
+mem_heap_extra_B=1489840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1496528707610
+mem_heap_B=9140472
+mem_heap_extra_B=1380464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1496532935647
+mem_heap_B=8760936
+mem_heap_extra_B=1271144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1496537163895
+mem_heap_B=8373208
+mem_heap_extra_B=1161784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1496541392143
+mem_heap_B=7985480
+mem_heap_extra_B=1052440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=1496545620391
+mem_heap_B=7597752
+mem_heap_extra_B=943096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=1496549848428
+mem_heap_B=7218216
+mem_heap_extra_B=833760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=1496554076676
+mem_heap_B=6830488
+mem_heap_extra_B=724432
+mem_stacks_B=0
+heap_tree=detailed
+n4: 6830488 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4194304 0x10D9D8: __gnu_cxx::new_allocator<edge>::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 4194304 0x10D912: std::allocator_traits<std::allocator<edge> >::allocate(std::allocator<edge>&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 4194304 0x10D748: std::_Vector_base<edge, std::allocator<edge> >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 4194304 0x10D276: void std::vector<edge, std::allocator<edge> >::_M_realloc_insert<edge>(__gnu_cxx::__normal_iterator<edge*, std::vector<edge, std::allocator<edge> > >, edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 4194304 0x10D03A: edge& std::vector<edge, std::allocator<edge> >::emplace_back<edge>(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n3: 4194304 0x10CE78: std::vector<edge, std::allocator<edge> >::push_back(edge&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x10CA91: parser::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CB57: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 2097152 0x117295: weight_walk::add_edge(unsigned int, unsigned int, double) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 2097152 0x10CCBF: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 2097152 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1788800 0x11A5FE: __gnu_cxx::new_allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 1788800 0x11A3BB: std::allocator_traits<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >::allocate(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n1: 1788800 0x11A0A2: std::__allocated_ptr<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > > std::__allocate_guarded<std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> > >(std::allocator<std::_Sp_counted_ptr_inplace<next_vertex, std::allocator<next_vertex>, (__gnu_cxx::_Lock_policy)2> >&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 1788800 0x119A6C: std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, next_vertex*, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 1788800 0x1193AA: std::__shared_ptr<next_vertex, (__gnu_cxx::_Lock_policy)2>::__shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n1: 1788800 0x118B8D: std::shared_ptr<next_vertex>::shared_ptr<std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::_Sp_make_shared_tag, std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 1788800 0x118309: std::shared_ptr<next_vertex> std::allocate_shared<next_vertex, std::allocator<next_vertex>, std::shared_ptr<graph_vertex>&, double&>(std::allocator<next_vertex> const&, std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n2: 1788800 0x117ADC: std::shared_ptr<next_vertex> std::make_shared<next_vertex, std::shared_ptr<graph_vertex>&, double&>(std::shared_ptr<graph_vertex>&, double&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 1628600 0x117483: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 1628600 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 1628600 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n1: 160200 0x117416: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+          n1: 160200 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+           n0: 160200 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+ n1: 737280 0x119DF4: __gnu_cxx::new_allocator<std::shared_ptr<next_vertex> >::allocate(unsigned long, void const*) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+  n1: 737280 0x1197E4: std::allocator_traits<std::allocator<std::shared_ptr<next_vertex> > >::allocate(std::allocator<std::shared_ptr<next_vertex> >&, unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+   n2: 737280 0x1190BE: std::_Vector_base<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_allocate(unsigned long) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+    n1: 737280 0x118C52: void std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::_M_realloc_insert<std::shared_ptr<next_vertex> >(__gnu_cxx::__normal_iterator<std::shared_ptr<next_vertex>*, std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > > >, std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+     n1: 737280 0x1183BA: std::shared_ptr<next_vertex>& std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::emplace_back<std::shared_ptr<next_vertex> >(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+      n2: 737280 0x117B62: std::vector<std::shared_ptr<next_vertex>, std::allocator<std::shared_ptr<next_vertex> > >::push_back(std::shared_ptr<next_vertex>&&) (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n1: 737280 0x117492: weight_walk::walk() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+        n1: 737280 0x10CCD1: parser::handle_input() (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+         n0: 737280 0x1098DF: main (in /home/jakub/Dokumenty/AiSD/Lista 5/zad4/main)
+       n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 110104 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=1496558304924
+mem_heap_B=6442760
+mem_heap_extra_B=615088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=1496562532961
+mem_heap_B=6063224
+mem_heap_extra_B=505752
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=1496566761209
+mem_heap_B=5675496
+mem_heap_extra_B=396408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=1496570989457
+mem_heap_B=5287768
+mem_heap_extra_B=287064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=1496575217494
+mem_heap_B=4908232
+mem_heap_extra_B=177728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=1496579445742
+mem_heap_B=4520504
+mem_heap_extra_B=68384
+mem_stacks_B=0
+heap_tree=empty

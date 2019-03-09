@@ -1,0 +1,11 @@
+10
+load sample.txt
+find three
+find Three
+find litwo
+find ojczyzno
+find moja
+find ty
+find jestes
+find jak
+find zdrowie
